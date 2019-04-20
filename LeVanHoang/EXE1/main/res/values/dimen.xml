@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MarginOfLayoutBtn">8dp</dimen>
+    <dimen name="textOfUndo">25sp</dimen>
+    <dimen name="textOfRestart">25dp</dimen>
+    <dimen name="TextOfJoinNumber">15dp</dimen>
+    <dimen name="TextOfTitle2048">18dp</dimen>
+</resources>

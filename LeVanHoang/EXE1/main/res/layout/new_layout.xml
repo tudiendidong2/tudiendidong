@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:layout_weight="7"
+    android:background="#fbf8ef"
+    tools:context=".Game2048Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal"
+        android:background="@color/bgNewLayout">
+
+        <TextView
+            style="@style/BtnLayout"
+            android:text="2048"
+            android:textColor="@color/colorAccent"
+            android:textSize="45dp"
+            />
+
+        <Button
+            style="@style/BtnLayout"
+            android:background="@color/BgLayoutNewOfBtn"
+            android:layout_marginRight="5dp"
+            android:text=""/>
+        <Button
+            style="@style/BtnLayout"
+            android:background="@color/BtnLayoutNew"
+            android:text=""/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutOverOfButton"
+        android:orientation="horizontal"
+        android:background="@color/bgNewLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/JoinNumber"
+            android:textSize="@dimen/TextOfJoinNumber"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/Title2048"
+            android:fontFamily="cursive"
+            android:textSize="@dimen/TextOfTitle2048"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgNewLayout">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:background="@color/bgColorOfText"
+            android:textAlignment="viewStart"
+            android:textColor="@color/ColorTextNewLayout"
+            android:textSize="@dimen/textOfRestart"
+            android:layout_weight="1"/>
+
+        <Button
+            android:background="@color/bgColorOfText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Undo"
+            android:textSize="@dimen/textOfUndo"
+            android:textColor="@color/ColorTextNewLayout"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:orientation="vertical"
+        android:layout_marginBottom="25dp"
+       android:background="@color/BgLayoutNewOfBtn">
+
+        <LinearLayout
+            style="@style/LayoutOverOfButton"
+            android:layout_marginBottom="@dimen/MarginOfLayoutBtn"
+            android:layout_marginRight="@dimen/MarginOfLayoutBtn"
+            android:layout_marginLeft="@dimen/MarginOfLayoutBtn"
+            android:layout_marginTop="@dimen/MarginOfLayoutBtn">
+
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LayoutOverOfButton"
+            android:layout_marginBottom="@dimen/MarginOfLayoutBtn"
+            android:layout_marginRight="@dimen/MarginOfLayoutBtn"
+            android:layout_marginLeft="@dimen/MarginOfLayoutBtn"
+            android:layout_marginTop="@dimen/MarginOfLayoutBtn">
+
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LayoutOverOfButton"
+            android:layout_marginBottom="@dimen/MarginOfLayoutBtn"
+            android:layout_marginRight="@dimen/MarginOfLayoutBtn"
+            android:layout_marginLeft="@dimen/MarginOfLayoutBtn"
+            android:layout_marginTop="@dimen/MarginOfLayoutBtn">
+
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/LayoutOverOfButton"
+            android:layout_marginBottom="@dimen/MarginOfLayoutBtn"
+            android:layout_marginRight="@dimen/MarginOfLayoutBtn"
+            android:layout_marginLeft="@dimen/MarginOfLayoutBtn"
+            android:layout_marginTop="@dimen/MarginOfLayoutBtn">
+
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+            <Button
+                style="@style/LayoutOfBtn"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="@dimen/MarginOfLayoutBtn"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

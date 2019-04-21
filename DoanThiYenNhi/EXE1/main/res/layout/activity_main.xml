@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_marginBottom="16dp"
+      android:hint="@string/input_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_number"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        style="@style/Star"
+        android:text="@string/gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/rad_male"
+            android:text="@string/Male"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rad_female"
+            android:text="@string/Female"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:onClick="addContact"
+        android:id="@+id/btn_add"
+        android:padding="24dp"
+        android:layout_margin="16dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:text="@string/Add_Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lv_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

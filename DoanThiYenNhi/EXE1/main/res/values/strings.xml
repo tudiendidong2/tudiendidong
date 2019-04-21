@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DanhBaDienThoai</string>
+    <string name="input_name">Nhập vào tên...</string>
+    <string name="input_number">Nhập vào số...</string>
+    <string name="Add_Contact">THÊM</string>
+    <string name="Male">Nam</string>
+    <string name="Female">Nữ</string>
+    <string name="gender">Giới Tính </string>
+
+</resources>

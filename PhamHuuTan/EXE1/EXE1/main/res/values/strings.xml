@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CardView</string>
+    <string name="fast_food">Fast food</string>
+    <string name="desc">No time to cook</string>
+    <string name="rating">5.0</string>
+    <string name="name_food">bread</string>
+    <string name="add_food">add_food</string>
+</resources>
